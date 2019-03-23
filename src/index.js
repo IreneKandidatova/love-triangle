@@ -13,7 +13,9 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
                 if (fourth == first) { 
                   ++TrCount;
                   preferences[i] = 0;
-                  }}
+                  }
+                }}
     i++;            
      }
-      return TrCount};
+    
+  return TrCount}
